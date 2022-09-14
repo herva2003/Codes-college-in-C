@@ -85,8 +85,9 @@ int main()
             if(flag > 4)
             {
                 printf("\n\t\t\t\t\t----------------------------------\n");
-                printf("\t\t\t\t\t| Senha obtida: %d %d %d %d %d\n", senha_obt[0], senha_obt[1], senha_obt[2], senha_obt[3], senha_obt[4]);
-                printf("\n\t\t\t\t\t    -->Você abriu o cofre!!<--\n");
+                printf("\t\t\t\t\t|     Senha obtida: %d %d %d %d %d\n", senha_obt[0], senha_obt[1], senha_obt[2], senha_obt[3], senha_obt[4]);
+                printf("\t\t\t\t\t|    -->Você abriu o cofre!!<--");
+                printf("\n\t\t\t\t\t----------------------------------\n");
                 break;
             }
             if(j == 1)
